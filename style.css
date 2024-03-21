@@ -47,19 +47,23 @@ body {
     left: 90px;
 }
 
-.line2 {width: 90px;
-background-color: white;
-height: 12px;
-position: absolute;
-top: 70px;
-left: 30px;
-transform: rotate(45deg);}
+.line2 {
+    width: 90px;
+    background-color: white;
+    height: 12px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    transform: rotate(45deg);
+}
 
-.line2::after {content: "";
-position: absolute;
-width: 30px;
-height: 30px;
-background-color: white;
-border-radius: 50%;
-top: -8px;
-left: 70px;}
+.line2::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    top: -8px;
+    left: 70px;
+}
